@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	port = 8000
+	port = 5100
 )
 
 var recorder = perf.NewRecorder("GRPC@Server")

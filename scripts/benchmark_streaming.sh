@@ -4,7 +4,7 @@ set -e
 # benchmark params
 repo=("kitex" "grpc")
 cli_repo=("kitex" "grpc")
-ports=(8001 8000)
+ports=(5101 5100)
 
 CURDIR=$(cd $(dirname $0); pwd)
 echo "Checking whether the environment meets the requirements ..."
