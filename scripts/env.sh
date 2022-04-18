@@ -2,7 +2,7 @@
 set -e
 
 # benchmark params
-n=20000000
+n=5000000
 body=(1024)
 concurrent=(100 1000)
 sleep=0
